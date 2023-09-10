@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Bebas+Neue&family=Comfortaa&family=Dancing+Script&family=Great+Vibes&family=Kaushan+Script&family=Lobster&family=Montserrat:wght@100&family=Nunito&family=Nunito+Sans:opsz@6..12&family=Oswald&family=Overpass&family=Poppins:ital,wght@0,700;1,400&family=Tangerine&family=Tilt+Prism&display=swap");
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.reviews {
+}
+
+/* css for rating card */
+.rating {
+  width: 360px;
+  height: 370px;
+  background-color: hsl(213, 19%, 18%);
+  margin: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+#star {
+  border-radius: 50%;
+  background-color: hsl(215, 10%, 24%);
+  margin: 7px;
+  padding: 15px;
+}
+
+.h1 {
+  font-family: Overpass;
+  font-weight: 700;
+  color: white;
+}
+
+.rating-para {
+  font-family: Overpass;
+  font-size: 15px;
+  color: rgb(143, 145, 150);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-container {
+  margin-bottom: 2rem;
+}
+.span {
+  border-radius: 50%;
+  background-color: hsl(212, 15%, 25%);
+  height: 80px;
+  width: 80px;
+  margin: 10px;
+  padding: 15px 20px;
+  color: rgb(165, 157, 157);
+  margin-bottom: 10px;
+  cursor: pointer;
+  border: none;
+  transform: translateY(4px);
+}
+
+.span:hover {
+  background-color: hsl(216, 7%, 29%);
+}
+
+.submit {
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  padding: 13px 110px;
+  margin: 30px;
+  border-radius: 40px;
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+  margin-top: 15px;
+  border: none;
+  box-shadow: 0 5px #492f0c;
+  text-decoration: none;
+}
+
+.submit:hover {
+  background-color: hsl(32, 79%, 54%);
+  transition: 0.5s;
+
+  color: rgb(54, 50, 50);
+}
+
+.submit:active {
+  transition: 0.5s;
+  box-shadow: 0 5px #8b6f3b;
+  transform: translateY(4px);
+}
+
+/* css for thankyou card */
+
+.thankyou {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 360px;
+  height: 380px;
+  background-color: hsl(213, 19%, 18%);
+  margin: 30px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+#img {
+  /* margin-top: 20px; */
+  margin-bottom: 20px;
+}
+
+.h2 {
+  color: hsl(25, 97%, 53%);
+  border-radius: 30px;
+  background-color: hsl(214, 12%, 23%);
+  padding: 10px 20px;
+  margin-top: 40px;
+  margin: 15px;
+  font-family: Overpass;
+  font-weight: 400;
+  font-size: 1.2rem;
+  box-shadow: rgba(255, 255, 255, 0.6);
+}
+
+.thankyou-heading {
+  color: rgb(230, 223, 223);
+  margin: 20px;
+}
+
+.thanks-para {
+  font-family: Overpass;
+  font-size: 15px;
+  color: rgb(143, 145, 150);
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
